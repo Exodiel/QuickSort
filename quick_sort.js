@@ -2,7 +2,6 @@ let arreglo = [31, 41, 59, 26, 53, 58, 97, 93, 23, 84, 40];
 console.log(arreglo);
 const swap = (arr, izq, der) => {
     //Intercambia el valor de la posición izq con el valor de la posición der
-    arr = arreglo;
     let temp = arr[izq];
     arr[izq] = arr[der];
     arr[der] = temp; 
@@ -10,7 +9,6 @@ const swap = (arr, izq, der) => {
 
 const quickSort = (arr, izq, der) => {
     if(izq < der) {
-        arr = arreglo;
         let lim = der,
             ori = izq;
 
